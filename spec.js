@@ -3,8 +3,8 @@
 module.exports = {
 	message: "I haz been wired",
 	// Beget a new foo instance
-	foo: {
-		create: './foo',
+	myComponent: {
+		create: './component',
 		properties: {
 			message: { $ref: 'message' }
 		},
