@@ -7,4 +7,4 @@ var wire = require('wire');
 // This helps to resolve relative module ids (e.g. './foo') from
 // within a wire spec, since node doesn't support any notion of
 // path or package mappings (like AMD does).
-wire(require('./spec'), { require: require }).then(null, console.error);
+wire(require('./spec')).then(null, console.error);

@@ -4,7 +4,7 @@ module.exports = {
 	message: "I haz been wired",
 	// Beget a new foo instance
 	myComponent: {
-		create: './component',
+		create: require('./component'),
 		properties: {
 			message: { $ref: 'message' }
 		},
